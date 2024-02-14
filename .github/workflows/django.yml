@@ -40,7 +40,6 @@ jobs:
     steps:
       - name: Deploy to anywhere you want
         uses: mr-smithers-excellent/docker-build-push@v4
-        run: echo 'hello'
         with:
           image: akashktr/githubaction
           registry: docker.io
