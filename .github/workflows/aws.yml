@@ -12,6 +12,7 @@ env:
   ECS_TASK_DEFINITION: ./task_definition.json
   CONTAINER_NAME: django_app
 
+
 defaults:
   run:
     shell: bash
