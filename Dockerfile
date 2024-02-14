@@ -8,7 +8,7 @@ COPY . .
 
 RUN pip install -r requirements.txt
 
-WORKDIR /django-example
+WORKDIR /github_action
 COPY run.sh .
 
 RUN chmod +x run.sh
